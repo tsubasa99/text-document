@@ -1,0 +1,101 @@
+
+
+.sec2{
+    .box{
+        background-image: url("https://waggytails.codelayers.net/images/pageheader.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+}
+
+
+
+#analyze{
+    .container{
+        h6{
+            i{
+                color: orange;
+            }
+        }
+    }
+    img{
+        border-radius: 8mm;
+      
+    }
+}
+
+#trumblr{
+    .container{
+        a{
+            color: #ffffff;
+    background-color: var(--secondcolor);
+    
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    padding: 1em 1.5em 1em 1.5em;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 10px 10px 0 0;
+    transition: .4s;
+    position: relative;
+    display: block;
+    text-align: center;
+    --secondcolor: #10223A;
+    --maincolor: #FAB005;
+    &:hover{
+        color: #fff;
+        background-color: orange;
+    }
+
+
+    
+
+    
+
+        }
+
+    }
+   i{
+    color: orange;
+   }
+}
+
+#box25{
+    .container{
+        a{background-color: var(--secondcolor);
+            color: #fff;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            display: inline-block;
+            text-align: center;
+            border: 0;
+            position: relative;
+            overflow: hidden;
+            font-weight: 700;
+            margin-top: 20px;
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            padding: 10px 40px;
+            border-radius: 20px;
+            line-height: 1.5;
+            visibility: visible;
+            --secondcolor: #10223A;
+            --maincolor: #FAB005;
+            &:hover{
+                color: #fff;
+                background-color: orange;
+                
+            }
+            
+        }
+    }
+}
